@@ -67,10 +67,18 @@
             android:layout_width="0dp"
             android:layout_height="110dp"
             android:layout_weight="1"
+            android:text="@string/lap"
+            android:textSize="24sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/start_button"
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:layout_weight="1"
             android:text="@string/start"
             android:textSize="24sp"
             android:visibility="visible" />
-
 
     </LinearLayout>
 
