@@ -9,7 +9,7 @@ https://github.com/user-attachments/assets/47c3cf00-284d-4941-923c-db877bf35241
 
 ### Android device
 
-1. Download the [latest SCTstopwatch.apk](https://github.com/JoshuaPrstec/SCTstopwatch_1/releases/latest)
+1. Download the [latest SCTstopwatch.apk](https://github.com/JoshuaPrstec/SCT_stopwatch/releases/latest/download/SCTStopwatch.apk)
 2. Once downloaded, open the Files app and press ```Downloads```
 3. Press on the SCTstopwatch.apk file
 4. If prompted, allow Files to install unknown apps
