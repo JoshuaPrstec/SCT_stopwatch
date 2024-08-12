@@ -4,7 +4,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
     <!-- Large Timer -->
     <TextView
         android:id="@+id/timer"
@@ -71,6 +70,7 @@
             android:textSize="24sp"
             android:visibility="gone" />
 
+        <!-- Start Button -->
         <Button
             android:id="@+id/start_button"
             android:layout_width="0dp"

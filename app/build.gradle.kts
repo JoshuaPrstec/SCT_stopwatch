@@ -1,4 +1,4 @@
-val poiVersion = "5.2.2" // Use the latest version of Apache POI
+val poiVersion = "5.2.2"
 
 plugins {
     alias(libs.plugins.android.application)
@@ -54,7 +54,6 @@ android {
 }
 
 dependencies {
-
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
@@ -76,5 +75,4 @@ dependencies {
     implementation(libs.poi)
     implementation(libs.poi.ooxml)
     implementation(libs.androidx.preference.ktx)
-        // Other dependencies...
     }

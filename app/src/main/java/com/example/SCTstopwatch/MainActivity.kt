@@ -32,6 +32,7 @@ class SettingsActivity : AppCompatActivity() {
             .commit()
     }
 }
+
 class SettingsFragment : PreferenceFragmentCompat() {
     override fun onCreatePreferences(savedInstanceState: Bundle?, rootKey: String?) {
         setPreferencesFromResource(R.xml.preferences, rootKey)
@@ -47,6 +48,7 @@ class InfoActivity : AppCompatActivity() {
             .commit()
     }
 }
+
 class InfoFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -55,6 +57,7 @@ class InfoFragment : Fragment() {
         return inflater.inflate(R.layout.information, container, false)
     }
 }
+
 
 class MainActivity : AppCompatActivity() {
     private fun isVibrationEnabled(): Boolean {
@@ -66,6 +69,7 @@ class MainActivity : AppCompatActivity() {
         val sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this)
         return sharedPreferences.getBoolean("reset_confirm", true)
     }
+
     private lateinit var timerTextView: TextView
     private lateinit var stopResetButton: Button
     private lateinit var lapResumeButton: Button
@@ -108,13 +112,12 @@ class MainActivity : AppCompatActivity() {
         lapResumeButton.setOnClickListener {
             if (isRunning) {
                 recordLap()
-            }
-            else {
+            } else {
                 startTimer()
             }
         }
         startButton.setOnClickListener {
-                startTimer()
+            startTimer()
         }
         stopResetButton.setOnClickListener {
             if (isRunning) {
@@ -284,6 +287,7 @@ class MainActivity : AppCompatActivity() {
             timerTextView.text = formatTime(timeInMilliseconds)
         }
     }
+
     private fun setButtonsEnabled(enabled: Boolean) {
         stopResetButton.isEnabled = enabled
         lapResumeButton.isEnabled = enabled
@@ -339,7 +343,7 @@ class MainActivity : AppCompatActivity() {
                     uploadButton.isEnabled = true
                 }
                 .setOnCancelListener {
-                    setButtonsEnabled(true) // Re-enable buttons when dialog is dismissed
+                    setButtonsEnabled(true)
                     uploadButton.isEnabled = true
                 }
                 .show()
@@ -435,11 +439,12 @@ class MainActivity : AppCompatActivity() {
             .setNegativeButton("Cancel") { dialog, _ ->
                 setButtonsEnabled(true)
                 uploadButton.isEnabled = true
-                dialog.cancel() }
+                dialog.cancel()
+            }
         val dialog: AlertDialog = builder.create()
 
         dialog.setOnDismissListener {
-            setButtonsEnabled(true) // Re-enable buttons when dialog is dismissed
+            setButtonsEnabled(true)
             uploadButton.isEnabled = true
         }
         dialog.show()
@@ -491,7 +496,7 @@ class MainActivity : AppCompatActivity() {
                     workbook.close()
                 }
 
-                // New code to open the Android share menu
+
                 val shareIntent: Intent = Intent().apply {
                     action = Intent.ACTION_SEND
                     putExtra(Intent.EXTRA_STREAM, uri)
