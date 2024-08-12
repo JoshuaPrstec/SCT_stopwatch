@@ -9,7 +9,7 @@ https://github.com/user-attachments/assets/47c3cf00-284d-4941-923c-db877bf35241
 
 ### Android device
 
-1. Download the [latest SCTstopwatch.apk](https://github.com/JoshuaPrstec/SCTstopwatch_1/releases/latest)
+1. Download the [latest SCTstopwatch.apk](https://github.com/JoshuaPrstec/SCT_stopwatch/releases/latest/download/SCTStopwatch.apk)
 2. Once downloaded, open the Files app and press ```Downloads```
 3. Press on the SCTstopwatch.apk file
 4. If prompted, allow Files to install unknown apps
@@ -42,7 +42,7 @@ https://github.com/user-attachments/assets/2f1724e6-594a-43d4-b01a-1a04c884442f
 
 ### Recording race
 
-https://github.com/user-attachments/assets/1ad3643e-6cf2-4a6d-a94e-6644bb7b36bc
+https://github.com/user-attachments/assets/40db7d8d-b93f-479c-8094-90ca3b9dda4b
 
 1. Press ```Start``` when the race starts
 2. Press ```Lap``` for each finishing time
