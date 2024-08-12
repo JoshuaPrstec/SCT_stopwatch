@@ -42,7 +42,8 @@ https://github.com/user-attachments/assets/2f1724e6-594a-43d4-b01a-1a04c884442f
 
 ### Recording race
 
-https://github.com/user-attachments/assets/40db7d8d-b93f-479c-8094-90ca3b9dda4b
+https://github.com/user-attachments/assets/4c2939b5-5ab4-44d7-b9f6-2686d03687ad
+
 
 1. Press ```Start``` when the race starts
 2. Press ```Lap``` for each finishing time
