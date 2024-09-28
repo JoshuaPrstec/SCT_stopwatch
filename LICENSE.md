@@ -1,5 +1,5 @@
-**END-USER LICENSE AGREEMENT**  
-**Last updated: 28th September 2024**  
+# END-USER LICENSE AGREEMENT
+# Last updated: 28th September 2024
 This End-User License Agreement (referred to as the "EULA") is a legally binding agreement between you, 
 the Licensee, an individual customer or entity, and Joshua Prstec, the author of BT Stopwatch, the 
 Software, which may include associated media, printed materials, and online or electronic documentation. 
@@ -10,7 +10,7 @@ copying, or otherwise using the Licensed Product (Software), the Licensee agrees
 and conditions outlined in this EULA. However, if the Licensee does not agree to the terms and conditions 
 outlined in this EULA, the said Licensee may not download, install, or use Software.  
 
-**Definitions**  
+## Definitions
 "EULA" shall refer to this End-User-License-Agreement, including any amendment to this  
 Agreement. 
 "Licensee" shall refer to the individual or entity that downloads and uses the Software.  
@@ -18,13 +18,13 @@ Agreement.
 "Software/Licensed product" shall mean BT Stopwatch, the Licensed Product provided pursuant 
 to this EULA. 
 
-**Grant of License**  
+## Grant of License 
 Subject to the terms of this EULA, Joshua Prstec hereby grants to the Licensee a royalty-free, revocable, 
 limited, non-exclusive license to possess and use a copy of the Software during the term of this EULA. 
 The Software is being distributed by Joshua Prstec. Licensee is not allowed to make a charge for distributing 
 the Software, either for profit or merely to recover media and distribution costs.  
 
-**Intellectual Property**  
+## Intellectual Property
 You hereby unconditionally agree that all rights, titles and interests in the copyrights and other 
 intellectual property rights in the Licensed Product reside with the Licensor. The trademarks, logos, designs, 
 and service marks appearing on the Licensed Product are registered and unregistered marks of the Licensor. 
@@ -35,15 +35,15 @@ data, code, algorithm, and information, are owned by the Licensor. Accordingly, 
 all applicable copyright laws and international treaties, and the Licensee is expected to use the Software  
 concerning all intellectual property contained therein, except as otherwise provided for in this EULA.  
 
-**Description of Rights and Limitations** 
-**Installation and Use**: 
+## Description of Rights and Limitations
+### Installation and Use:
 The Licensee may install and use the Software on a shared computer or concurrently on 
 different computers, and make multiple back-up copies of the Software, solely for the Licensee's use within 
 Licensee's business or personal use. 
-**Reproduction and Distribution**: 
+### Reproduction and Distribution: 
 Licensee may not duplicate or redistribute copies of the Software, without 
 the Licensor's express written permission. 
-**Licensee Limitation**: 
+### Licensee Limitation: 
 The Licensee may not:  
 1\. Use the Software for any purpose other than personal and non-commercial purposes;  
 2\. Use the Software for any illegal or unlawful purpose;  
@@ -52,11 +52,11 @@ to database scraping or screen scraping; or
 4\. Reverse engineer, decompile, or disassemble the Software, except and only to the extent that such activity is 
 expressly permitted by applicable law notwithstanding the limitation.  
 
-**Update and Maintenance**
+## Update and Maintenance
 Joshua Prstec has no obligation to Software support, or to continue providing or updating any of the Software.  
 
-**General Provisions**  
-**Termination**
+## General Provisions
+### Termination
 In the event of termination, all licenses provided under this EULA shall immediately terminate,  
 and you agree to discontinue accessing or attempting to access this Licensed product.  
 Accordingly, this EULA may be:  
@@ -66,22 +66,21 @@ conditions under this EULA;
 3\. Terminated by the Licensee.  
 Either Joshua Prstec or the Licensee may terminate this EULA immediately upon written notice to the other party, 
 including but not limited to electronic mail.  
-
-**Non-Transferability**
+### Non-Transferability
 The Licensee has the option to permanently transfer all rights under this EULA, provided the recipient agrees to 
 the terms of this EULA. Accordingly, this EULA is not assignable or transferable by the Licensee without the prior 
 written consent of Joshua Prstec; and any attempt to do so shall be void.  
 
-**Notice**  
+## Notice
 Any notice, report, approval or consent required under this EULA shall be in writing and deemed to have been duly 
 given if delivered by recorded delivery to the respective addresses of the parties.  
 
-**Integration**  
+## Integration
 Both parties hereby agree that this EULA is the entire and exclusive statement and Legal acknowledgment of the 
 mutual understanding of the parties and supersedes and cancels any previous written and oral agreement and/or 
 communication relating to the subject matter of this EULA.  
 
-**Severability**  
+## Severability
 No delay or failure to exercise, on the part of either party, any privilege, power or rights under this EULA shall 
 operate as a waiver of any of the terms and provisions of this EULA. Accordingly, no single or partial exercise of any 
 right under this Agreement shall preclude further exercise of any other right under this EULA. Suppose any of the 
@@ -91,13 +90,13 @@ full force and effect and enforceable. The remaining provisions of this Agreemen
 or invalid. They shall continue to be enforceable and valid in isolation of the unenforceable and invalid provisions of 
 this EULA. 
 
-**Warranty and Disclaimer**
+## Warranty and Disclaimer
 Joshua Prstec, author of the Software, expressly disclaims any warranty for the BT Stopwatch. The Licensed Product and all 
 applicable documentation is provided as-is, without warranty of any kind, whether express or implied, including, without 
 limitation, the implied warranties of merchantability, fitness for a particular purpose, or non-infringement. Accordingly, 
 the Licensee accepts any risk arising out of the use or performance of the Software.  
 
-**Limited Liability**  
+## Limited Liability
 The Licensee agrees that Joshua Prstec shall not be liable to the Licensee, or any other related person or entity claiming 
 any loss of profits, income, savings, or any other consequential, incidental, special, punitive, direct or indirect damage, 
 whether arising in contract, tort, warranty, or otherwise. Even if Joshua Prstec has been advised of the possibility of such 
@@ -105,18 +104,18 @@ damages. These limitations shall necessarily apply regardless of the primary pur
 circumstances shall Joshua Prstec's aggregate liability to the Licensee, or any other person or entity claiming through the 
 Licensee, exceed the actual monetary amount paid by the Licensee to Joshua Prstec for the Software.  
 
-**Indemnification**  
+## Indemnification
 You hereby agree to indemnify and hold Joshua Prstec harmless from and against all liabilities, damages, losses or expenses, 
 including but not limited to reasonable attorney or other professional fees in any claim, demand, action or proceeding 
 initiated by any third-party against Joshua Prstec, arising from any of your acts, including without limitation, violating 
 this EULA or any other agreement or any applicable law.  
 
-**Entire Agreement**  
+## Entire Agreement
 This Agreement rightly constitutes the entire understanding between Joshua Prstec and the Licensee and all parties involved. 
 It supersedes all prior agreements of the parties, whether written or oral, express or implied, statement, condition, or a 
 representation or warranty. 
 
-**Governing Law and Jurisdiction**  
+## Governing Law and Jurisdiction
 This EULA shall be deemed to be construed under the jurisdiction of the courts located in Australia, without regard to 
 conflicts of laws as regards the provisions thereof. Any legal action  relating to this EULA shall be brought exclusively 
 in the courts of Australia, and all parties consent to the jurisdiction thereof. Furthermore, the prevailing party in any 
