@@ -1,4 +1,4 @@
-package com.example.SCTstopwatch
+package com.stopwatch.SCT
 
 import org.junit.Test
 

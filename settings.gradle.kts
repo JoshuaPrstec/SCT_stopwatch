@@ -20,5 +20,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "SCTstopwatch"
+rootProject.name = "Stopwatch"
 include(":app")

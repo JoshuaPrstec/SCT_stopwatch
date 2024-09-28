@@ -7,11 +7,25 @@ plugins {
 
 android {
 
-    namespace = "com.example.SCTstopwatch"
+    signingConfigs {
+        create("SCT") {
+            storeFile = file("/Users/josh/AndroidStudioProjects/SCTstopwatch/SCT_keystore")
+            storePassword = project.findProperty("SCT_KEYSTORE_PASSWORD") as String
+            keyPassword = project.findProperty("SCT_KEY_PASSWORD") as String
+            keyAlias = project.findProperty("SCT_KEY_ALIAS") as String
+        }
+        create("BT") {
+            storeFile = file("/Users/josh/AndroidStudioProjects/SCTstopwatch/BT_keystore")
+            storePassword = project.findProperty("BT_KEYSTORE_PASSWORD") as String
+            keyPassword = project.findProperty("BT_KEY_PASSWORD") as String
+            keyAlias = project.findProperty("BT_KEY_ALIAS") as String
+        }
+    }
+    namespace = "com.stopwatch.SCT"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.SCTstopwatch"
+        applicationId = "com.stopwatch.SCT"
         minSdk = 27
         targetSdk = 34
         versionCode = 1
@@ -49,6 +63,29 @@ android {
     packaging {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
+        }
+    }
+    flavorDimensions += listOf("stopwatch")
+    productFlavors {
+        create("SCT") {
+            applicationId = "com.stopwatch.SCT"
+            dimension = "stopwatch"
+            versionName = "SCT 2.0"
+            resValue ("string", "app_name", "SCT Stopwatch")
+            resValue("mipmap", "ic_launcher", "@mipmap/sct_launcher")
+            resValue("mipmap", "ic_launcher_round", "@mipmap/sct_launcher_round")
+            resValue("mipmap", "ic_launcher_monochrome", "@mipmap/sct_monochrome")
+            signingConfig = signingConfigs.getByName("SCT")
+        }
+        create("BT") {
+            applicationId = "com.stopwatch.BT"
+            dimension = "stopwatch"
+            versionName = "BT 2.0"
+            resValue ("string", "app_name", "BT Stopwatch")
+            resValue("mipmap", "ic_launcher", "@mipmap/bt_launcher")
+            resValue("mipmap", "ic_launcher_round", "@mipmap/bt_launcher_round")
+            resValue("mipmap", "ic_launcher_monochrome", "@mipmap/bt_monochrome")
+            signingConfig = signingConfigs.getByName("BT")
         }
     }
 }
