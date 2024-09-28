@@ -10,12 +10,13 @@ SCT stopwatch
 https://github.com/user-attachments/assets/47c3cf00-284d-4941-923c-db877bf35241
 
 1. Download the [latest SCTstopwatch.apk](https://github.com/JoshuaPrstec/SCT_stopwatch/releases/latest/download/SCTStopwatch.apk)
-2. Once downloaded, open the Files app and press ```Downloads```
-3. Press on the SCTstopwatch.apk file
-4. If prompted, allow Files to install unknown apps
-5. Navigate to the app drawer and locate the SCT stopwatch app
-6. If prompted, allow SCT stopwatch to access nearby devices
-7. Turn Bluetooth on
+   or [latest BTstopwatch.apk](https://github.com/JoshuaPrstec/SCT_stopwatch/releases/latest/download/BTStopwatch.apk)
+3. Once downloaded, open the Files app and press ```Downloads```
+4. Press on the SCTstopwatch.apk file
+5. If prompted, allow Files to install unknown apps
+6. Navigate to the app drawer and locate the SCT stopwatch app
+7. If prompted, allow SCT stopwatch to access nearby devices
+8. Turn Bluetooth on
 
 ### Computer
 
