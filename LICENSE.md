@@ -8,7 +8,7 @@
 **Licensee:** The individual or entity granted the rights to use the Software under this agreement.  
 **Licensor:** The owner and creator of the Software, Joshua Prstec, who grants the licence to the licensee.
 
-## Grant of licence
+## Grant of Licence
 
 Subject to the terms of this Software Licence Agreement, Joshua Prstec hereby grants to the licensee a royalty-free, revocable, limited, non-exclusive licence to use, modify, distribute, and copy the Software. The licensee is not permitted to make a charge for distributing the Software or any modifications thereof, either for profit or merely to recover media and distribution costs.
 
