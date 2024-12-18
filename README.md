@@ -1,6 +1,6 @@
 <!--suppress HtmlDeprecatedAttribute -->
 <h1 align="center">
-SCT stopwatch
+SCT & BT Stopwatch
 </h1>
 
 ## Installation
