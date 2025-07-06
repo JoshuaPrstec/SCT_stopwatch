@@ -1,6 +1,6 @@
 <!--suppress HtmlDeprecatedAttribute -->
 <h1 align="center">
-SCT & BT Stopwatch
+SCT stopwatch
 </h1>
 
 ## Installation
@@ -11,12 +11,12 @@ https://github.com/user-attachments/assets/47c3cf00-284d-4941-923c-db877bf35241
 
 1. Download the [latest SCTstopwatch.apk](https://github.com/JoshuaPrstec/SCT_stopwatch/releases/latest/download/SCTStopwatch.apk)
    or [latest BTstopwatch.apk](https://github.com/JoshuaPrstec/SCT_stopwatch/releases/latest/download/BTStopwatch.apk)
-3. Once downloaded, open the Files app and press ```Downloads```
-4. Press on the SCTstopwatch.apk file
-5. If prompted, allow Files to install unknown apps
-6. Navigate to the app drawer and locate the SCT stopwatch app
-7. If prompted, allow SCT stopwatch to access nearby devices
-8. Turn Bluetooth on
+2. Once downloaded, open the Files app and press ```Downloads```
+3. Press on the SCTstopwatch.apk file
+4. If prompted, allow Files to install unknown apps
+5. Navigate to the app drawer and locate the SCT stopwatch app
+6. If prompted, allow SCT stopwatch to access nearby devices
+7. Turn Bluetooth on
 
 ### Computer
 
@@ -77,7 +77,8 @@ https://github.com/user-attachments/assets/0e500d4f-f5e0-4b4d-8f6e-c8411ea3f3c8
 - If the vibration is not working, ensure touch feedback is enabled (Settings -> Sound and vibration -> Vibration and haptics -> Touch feedback)
 - To turn the reset confirmation message on/off, press the settings icon (top right) and toggle the ```Reset Confirmation``` switch
 - If the computer does not show up in the Bluetooth menu, ensure Bluetooth is on and the ```Bluetooth File Receive``` app is running
-- To resend an old race.xlsx file, open the ```Files``` app on the Android device, press ```Downloads```, and resend the file
+- To delete a race time, hold the lap time until the deletion popup appears
+- To delete a race from the history, hold the file name until the deletion popup appears
+- To resend an old race.xlsx file, press the settings icon in the top right corner, press ```View History```, select the file name, and then press ```Upload```
 >[!IMPORTANT]
 >To access this guide in the app, press the info icon (```i```) in the top right corner
-
